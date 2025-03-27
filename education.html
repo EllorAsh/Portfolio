@@ -9,60 +9,345 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <title>About me</title>
+    <title>Education</title>
 </head>
 <body>
-    <div class="navBar">
-        <div class="profileDisplay">
-            <div class="profileImg"></div>
-            <div class="personalInfo">
-                <h1 class="name">Elanie Bergh</h1>
-                <p class="jobTitle">Development and AI</p>
+    <div class="page educationBG">
+        <div class="mainBody">
+            <div class="navBar">
+                <div class="profileDisplay">
+                    <div class="profileImg"></div>
+                    <div class="personalInfo">
+                        <h1 class="name">Elanie Bergh</h1>
+                        <p class="jobTitle">Development and AI</p>
+                    </div>
+                    </div>
+                <div class="navDisplay">
+                    <label for="navB" class="navMenuButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list navBtn" viewBox="0 0 16 16" >
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </label>
+                    <input type="checkbox" class="navButton" id="navB"/>            
+                    <div class="navLinks">
+                        <a class="navLink" href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            </svg>
+                            ABOUT ME
+                        </a></br>
+                        <a class="navLink" href="projects.html">PROJECTS</a></br>
+                        <a href="projects.html#webDev" class="navLink">Web Development</a><br/>
+                        <a href="projects.html#aiML" class="navLink">AI and Machine Learning</a><br/>
+                        <a href="projects.html#data" class="navLink">Data Engineering and Analysis</a><br/>
+                        <a href="skills.html" class="navLink">SKILLS</a><br/>
+                        <a class="navLink activeLink" href="education.html">EDUCATION</a></br>
+                        <a class="navLink" href="">ACCOMPLISHMENTS</a></br>
+                    </div>
+                </div>
+            </div>
+            <div class="display">
+                <div class="space"></div>
+                
+                <div class="courseCardsContainer">
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Artificial Intelligence Certificate.jpg" class="courseImg">
+                        <p class="courseName">Artificial Intelligence A-Z</p>
+                        <p class="courseProvider">UDEMY Certification</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Artificial Intelligence on Microsoft Azure Certificate.jpg" class="courseImg">
+                        <p class="courseName">Artificial Intelligence Microsoft Azure</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Computer Vision in Microsoft Azure Certificate.jpg" class="courseImg">
+                        <p class="courseName">Computer Vision Microsoft Azure</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Create Machine Learning Models in Microsoft Azure Certificate.jpg" class="courseImg">
+                        <p class="courseName">ML Models Microsoft Azure</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Create Machine Learning Models in Microsoft Azure Certificate.jpg" class="courseImg">
+                        <p class="courseName">ML Models Microsoft Azure</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM AI Capstone Project with Deep Leaning Certificate.jpg" class="courseImg">
+                        <p class="courseName">AI Capstone With Deep Learning</p>
+                        <p class="courseProvider">IBM COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM AI Engineering Professional Certificate Badge.jpg" class="courseImg">
+                        <p class="courseName">AI Engineering Professional Badge</p>
+                        <p class="courseProvider">IBM</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM AI Engineering Professional Certificate.jpg" class="courseImg">
+                        <p class="courseName">AI Engineering</p>
+                        <p class="courseProvider">IBM COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Building Deep Learning Models with TensorFlow Certificate.jpg" class="courseImg">
+                        <p class="courseName">Deep Learning Models With Tensorflow</p>
+                        <p class="courseProvider">IBM COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Computer Vision and Image Processing Essentials Badge.jpg" class="courseImg">
+                        <p class="courseName">Computer Vision Badge</p>
+                        <p class="courseProvider">IBM</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Deep Learning Essentials with Keras Badge.jpg" class="courseImg">
+                        <p class="courseName">Deep Learning With Keras Badge</p>
+                        <p class="courseProvider">IBM</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Deep Learning with Tensorflow Badge.jpg" class="courseImg">
+                        <p class="courseName">Deep Learning With Tensorflow Badge</p>
+                        <p class="courseProvider">IBM</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Deep Neural Networks with PyTorch Certificate.jpg" class="courseImg">
+                        <p class="courseName">Deep Neural Networks With Pytorch</p>
+                        <p class="courseProvider">IBM COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Introduction to Computer Vision and Image Processing Certificate.jpg" class="courseImg">
+                        <p class="courseName">Computer Vision and Image Processing</p>
+                        <p class="courseProvider">IBM COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Deep Neural Networks with PyTorch Certificate.jpg" class="courseImg">
+                        <p class="courseName">DL and Neural Networks with Keras</p>
+                        <p class="courseProvider">IBM COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Machine Learning with Python Badge.jpg" class="courseImg">
+                        <p class="courseName">Machine Learning with Python badge</p>
+                        <p class="courseProvider">IBM</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/IBM Machine Learning with Python Certificate.jpg" class="courseImg">
+                        <p class="courseName">Machine Learning with Python</p>
+                        <p class="courseProvider">IBM COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Imperial College London Mathematics for Machine Learning - Linear Algebra Certificate.jpg" class="courseImg">
+                        <p class="courseName">Linear Algebra for Machine Learning</p>
+                        <p class="courseProvider">Imperial College London COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Imperial College London Mathematics for Machine Learning - Multivariate Calculus Certificate.jpg" class="courseImg">
+                        <p class="courseName">Multivariate Calculus for Machine Learning</p>
+                        <p class="courseProvider">Imperial College London COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Imperial College London Mathematics for Machine Learning - PCA Certificate.jpg" class="courseImg">
+                        <p class="courseName">PCA for Machine Learning</p>
+                        <p class="courseProvider">Imperial College London COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Imperial College London Mathematics for Machine Learning Specialization.jpg" class="courseImg">
+                        <p class="courseName">Mathematics for Machine Learning</p>
+                        <p class="courseProvider">Imperial College London COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Machine Learning Certificate.jpg" class="courseImg">
+                        <p class="courseName">Machine Learning A-Z Python</p>
+                        <p class="courseProvider">UDEMY Certification</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Math for Data science, Data analysis and Machine Learning Certificate.jpg" class="courseImg">
+                        <p class="courseName">Math for Data Science, Analysis and ML</p>
+                        <p class="courseProvider">UDEMY Certification</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Advanced React Certificate.jpg" class="courseImg">
+                        <p class="courseName">Advanced React</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta APIs Certificate.jpg" class="courseImg">
+                        <p class="courseName">APIs</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Back-End Developer Capstone Certificate.jpg" class="courseImg">
+                        <p class="courseName">Back End Capstone</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Back-End Developer Certificate Badge.jpg" class="courseImg">
+                        <p class="courseName">Back End Developer Badge</p>
+                        <p class="courseProvider">META</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Back-End Developer Professional Certificate.jpg" class="courseImg">
+                        <p class="courseName">Back End Developer</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Coding Interview Preparation Certificate.jpg" class="courseImg">
+                        <p class="courseName">Coding Interview</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Django Web Framework Certificate.jpg" class="courseImg">
+                        <p class="courseName">Django Web Framework</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Front-End Developer Capstone Certificate.jpg" class="courseImg">
+                        <p class="courseName">Front End Developer Capstone</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Front-End Developer Professional Certificate.jpg" class="courseImg">
+                        <p class="courseName">Front End Developer</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Full-Stack Engineer Certificate Badge.jpg" class="courseImg">
+                        <p class="courseName">Full-Stack Engineer</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta HTML and CSS in depth Certificate.jpg" class="courseImg">
+                        <p class="courseName">HTML and CSS</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Introduction to Back-End Development Certificate.jpg" class="courseImg">
+                        <p class="courseName">Back-End Development</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Introduction to Databases for Back-End Development Certificate.jpg" class="courseImg">
+                        <p class="courseName">Databases for Back-End</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Introduction to Front-End Development Certificate.jpg" class="courseImg">
+                        <p class="courseName">Front-End Development</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Principles of UX and UI Design Certificate.jpg" class="courseImg">
+                        <p class="courseName">UX and UI Design</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Programming in Python Certificate.jpg" class="courseImg">
+                        <p class="courseName">Programming in Python</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Programming with JavaScript Certificate.jpg" class="courseImg">
+                        <p class="courseName">Programming in JavaScript</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta React Basics Certificate.jpg" class="courseImg">
+                        <p class="courseName">React Basics</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta The Full Stack Certificate.jpg" class="courseImg">
+                        <p class="courseName">Full Stack Development</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Meta Version Control Certificate.jpg" class="courseImg">
+                        <p class="courseName">Version Control</p>
+                        <p class="courseProvider">META COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Microsoft Azure AI Fundamentals AI-900 Exam Prep Specialization.jpg" class="courseImg">
+                        <p class="courseName">Microsoft AI Fundamentals Exam Prep</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Microsoft Azure Data Scientist Associate (DP-100) Professional Certificate.jpg" class="courseImg">
+                        <p class="courseName">Microsoft Azure Data Scientist</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Microsoft Azure Machine Learning Certificate.jpg" class="courseImg">
+                        <p class="courseName">Microsoft Azure Machine Learning</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Microsoft Build and Operate Machine Learning Solutions with Azure Certificate.jpg" class="courseImg">
+                        <p class="courseName">Microsoft Build and Operate ML Solutions</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Microsoft Perform Data Science with Azure Databricks Certificate.jpg" class="courseImg">
+                        <p class="courseName">Microsoft Data Science Azure Databricks</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Microsoft Prepare for DP-100 Data Science on Microsoft Azure Exam Certificate.jpg" class="courseImg">
+                        <p class="courseName">Microsoft DP-100 Exam Prep</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Natural Language Processing in Microsoft Azure Certificate.jpg" class="courseImg">
+                        <p class="courseName">Microsoft Azure Natural Language Processing</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Preparing for AI-900 Microsoft Azure AI Fundamentals exam Certificate.jpg" class="courseImg">
+                        <p class="courseName">Microsoft AI-900 Exam Prep</p>
+                        <p class="courseProvider">Microsoft COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/UMich Applied Data Science with Python Specialization.jpg" class="courseImg">
+                        <p class="courseName">Data Science with Python</p>
+                        <p class="courseProvider">Univercity Of Michigan COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/UMich Applied Machine Learning in Python Certificate.jpg" class="courseImg">
+                        <p class="courseName">Machine Learning in Python</p>
+                        <p class="courseProvider">Univercity Of Michigan COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/UMich Applied Plotting, Charting and Data Representation in Python Certificate.jpg" class="courseImg">
+                        <p class="courseName">Representing and plotting data in Python</p>
+                        <p class="courseProvider">Univercity Of Michigan COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/UMich Applied Social Network Analysis in Python Certificate.jpg" class="courseImg">
+                        <p class="courseName">Social Network Analysis in Python</p>
+                        <p class="courseProvider">Univercity Of Michigan COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/UMich Applied Text Mining in Python Certificate.jpg" class="courseImg">
+                        <p class="courseName">Text Mining in Python</p>
+                        <p class="courseProvider">Univercity Of Michigan COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/UMich Introduction to Data Science in Python Certificate.jpg" class="courseImg">
+                        <p class="courseName">Data Science in Python</p>
+                        <p class="courseProvider">Univercity Of Michigan COURSERA</p>
+                    </div>
+                    <div class="courseCard">
+                        <img src="./Certificates_Images/Web Development Bootcamp Certificate.jpg" class="courseImg">
+                        <p class="courseName">Full Stack Web Developemnt</p>
+                        <p class="courseProvider">UDEMY Certification</p>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="navDisplay">
-            <label for="navB" class="navMenuButton">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list navBtn" viewBox="0 0 16 16" >
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg>
-            </label>
-            <input type="checkbox" class="navButton" id="navB"/>            
-            <div class="navLinks">
-                <a class="navLink" href="index.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-                    </svg>
-                    ABOUT ME
-                </a></br>
-                <a class="navLink" href="projects.html">PROJECTS</a></br>
-                <a href="" class="navLink">Web Development</a><br/>
-                <a href="" class="navLink">AI and Machine Learning</a><br/>
-                <a href="" class="navLink">Data Engineering and Analysis</a><br/>
-                <a href="" class="navLink">SKILLS</a><br/>
-                <a class="navLink activeLink" href="education.html">EDUCATION</a></br>
-                <a class="navLink" href="">ACCOMPLISHMENTS</a></br>
-            </div>
-    </div>
-    </div>    
-    <div class="displayPage">
-        <div class="pageSpacing"></div>
-
-    </div>
-    <section class="mainBody">
-
-        <div class="display">
-            <div>
-                section header
-            </div>
-            <div>
-                section info
-            </div>
-        </div>
-    </section>
+    </div>            
     <footer class="footer">
         footer
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
