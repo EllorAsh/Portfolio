@@ -1,0 +1,177 @@
+body{
+    background-color: #ACACAC;
+    background-image: image-set("./Assets/Background1.jpg");
+    background-size: cover;
+    margin: 0px;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.display{
+    width: 100%;
+}
+.footer{
+    background-color: #395a7fb6;
+    height: 20vh;
+}
+.projectCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(min-width :600px) {
+    .mainBody{
+        display: flex;
+        height: fit-content;
+    }
+    .profileImg{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-image: image-set("./Assets/profile.jpg");
+        background-size: cover;
+        background-position: 10%;
+        margin: 0%;
+        margin-left: 15px;
+    }
+    .navBar{
+        background-color: #395a7fb6;
+        width: 25vw;
+        max-width: 180px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: rgba(255, 255, 255, 0.458) solid 10px;
+    }
+    .navButton, .navBtn, .navMenuButton{
+        height: 0px;
+    }
+    .navLinks{
+        height: fit-content;
+    }
+    .navLink{
+        color: #ACACAC;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .navlink:hover{
+        color: rgb(230, 230, 230);
+    }
+    .personalInfo{
+        .name{
+            font-size: 18px;
+            margin: 0;
+            margin-top: 15px;
+            color: #e4e4e4;
+        }
+        .jobTitle{
+            font-size: 14px;
+            margin: 0;
+            color: #ACACAC;
+        }
+    }
+    .activeLink{
+        color: white;
+    }
+}
+@media(max-width :600px) {
+    .mainBody{
+        display: block;
+        height: fit-content;
+    }
+    .navBar{
+        background-color: #395a7fb6;
+        max-height: 300px;
+    }
+    .navLinks{
+        overflow: hidden;
+        height: 0px;
+        text-align: end;
+    }
+    .navLinks>a{
+        color: #ACACAC;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .navButton:checked{
+        ~ .navLinks{
+            height: fit-content;
+            position: relative;
+            bottom: 50px;
+            margin-right: 10px;
+            .activeLink{
+                color: white;
+            }
+        }
+    }
+    .navButton{
+        margin: 0;
+        opacity: 0;
+    }
+    
+    .navMenuButton{
+        margin: 0;
+        position: relative;
+        left: 85%;
+        bottom: 55px;
+        margin: 20px;
+        color: rgba(217, 217, 217, 1)
+    }
+    .profileImg{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-image: image-set("./Assets/profile.jpg");
+        background-size: cover;
+        background-position: 10%;
+        margin: 5px;
+    }
+    .profileDisplay{
+        display: flex;
+    }
+    .personalInfo{
+        .name{
+            font-size: 18px;
+            margin: 0;
+            margin-top: 15px;
+            color: #e4e4e4;
+        }
+        .jobTitle{
+            font-size: 14px;
+            margin: 0;
+            color: #ACACAC;
+        }
+    }
+}
+
+@media(min-width :1000px){
+    .navLink{
+        font-size: 16px;
+        margin: 10px;
+    }
+}
+.navLink:hover{
+    color: #e4e4e4;
+}
+
+.projectCard{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ACACAC;
+    margin: 10px;
+    overflow: hidden;
+}
+.projectAdditionalInfo{
+    list-style: none;
+    text-align: left;
+}
+.projectType{
+    position: relative;
+    bottom: 280px;
+    left: 200px;
+    height: 0px;
+}
+.projectDescription{
+    height: 100px;
+}
