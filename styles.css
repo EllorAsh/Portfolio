@@ -282,3 +282,21 @@ body{
     text-decoration: underline;
     color: white;
 }
+
+@media(max-width :500px){
+    .courseImg{
+        width: 60vw;
+        min-width: 200px;
+        min-height: 150px;
+        height: 40vw;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .courseCard{
+        background-color: whitesmoke;
+        margin: 5px;
+        border-radius: 5px;
+        width: 60vw;
+        min-width: 200px;
+    }
+}
