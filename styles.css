@@ -79,6 +79,24 @@ body{
     .activeLink{
         color: white;
     }
+    .courseName{
+        font-size: 22px;
+        margin: 0px;
+    }
+    .courseProvider{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .courseSelection{
+        width: 79vw;
+        display: flex;
+        justify-content: space-around;
+        background-color: #ACACAC;
+        position: fixed;
+    }
+    .courseSpacing{
+        height: 20px;
+    }
 }
 @media(max-width :700px) {
     .mainBody{
@@ -96,7 +114,7 @@ body{
         flex-direction: column;
     }
     .space{
-        height: 150px;
+        height: 140px;
     }
     .navLinks{
         overflow: hidden;
@@ -156,6 +174,25 @@ body{
             margin: 0;
             color: #ACACAC;
         }
+    }
+    .courseName{
+        font-size: 16px;
+        margin: 0px;
+    }
+    .courseProvider{
+        font-size: 12px;
+        margin: 0px;
+    }
+    .courseSelection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ACACAC;
+        position: fixed;
+    }
+    .courseSpacing{
+        height: 70px;
     }
 }
 
@@ -219,11 +256,13 @@ body{
 .courseCardsContainer{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 5px;
 }
 .courseImg{
-    width: 400px;
-    height: 300px;
+    width: 40vw;
+    min-width: 200px;
+    min-height: 150px;
+    height: 30vw;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -231,15 +270,8 @@ body{
     background-color: whitesmoke;
     margin: 5px;
     border-radius: 5px;
-    width: 400px;
-}
-.courseName{
-    font-size: 22px;
-    margin: 0px;
-}
-.courseProvider{
-    font-size: 14px;
-    margin: 0px;
+    width: 40vw;
+    min-width: 200px;
 }
 .projectLink>a{
     margin-left: 10px;
