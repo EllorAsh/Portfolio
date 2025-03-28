@@ -285,10 +285,10 @@ body{
 
 @media(max-width :500px){
     .courseImg{
-        width: 60vw;
+        width: 80vw;
         min-width: 200px;
         min-height: 150px;
-        height: 40vw;
+        height: 60vw;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
@@ -296,7 +296,7 @@ body{
         background-color: whitesmoke;
         margin: 5px;
         border-radius: 5px;
-        width: 60vw;
+        width: 80vw;
         min-width: 200px;
     }
 }
