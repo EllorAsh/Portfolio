@@ -41,8 +41,8 @@ body{
     }
     .navBar{
         background-color: #395a7fb6;
-        width: 25vw;
-        max-width: 180px;
+        width: 15vw;
+        min-width: 180px;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -88,11 +88,19 @@ body{
         margin: 0px;
     }
     .courseSelection{
-        width: 79vw;
         display: flex;
-        justify-content: space-around;
-        background-color: #ACACAC;
+        justify-content: space-between;
         position: fixed;
+        a{
+            width: 160px;
+            color: aliceblue;
+            background-color: #051c37;
+            margin: 5px;
+            padding: 5px;
+            text-decoration: none;
+            border-left: #ACACAC solid;
+            border-radius: 5px;
+        }
     }
     .courseSpacing{
         height: 20px;
@@ -206,16 +214,16 @@ body{
 }
 
 .projectInfo{
-    height: 250px;
+    min-height: 250px;
     margin: 5px;
 }
 .projectCard{
-    width: 300px;
+    width: 95%;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     background-color: #ACACAC;
     overflow: hidden;
-    min-height: 500px;
     margin: 5px;
     border-radius: 5px;
 }
