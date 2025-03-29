@@ -73,7 +73,7 @@ body{
         margin-left: 15px;
     }
     .navBar{
-        background-image: image-set("./Assets/Background2.jpg");
+        background-image: image-set("./Assets/BG8.jpg");
         background-size: cover;
         width: fit-content;
         min-width: 180px;
@@ -416,13 +416,13 @@ body{
 }
 @media(min-width :1200px){
     .navBar{
-        background-image: image-set("./Assets/Background2.jpg");
+        background-image: image-set("./Assets/BG8.jpg");
         background-size: cover;
         width: 15vw;
         min-width: 230px;
         border-right: rgba(1, 7, 28, 0.458) solid 10px;
     }
-    .eduNav, .projectNav{
+        .eduNav, .projectNav{
         background-image: none;
         background-color: #051c37;      
     }
