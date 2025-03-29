@@ -265,6 +265,32 @@ body{
     .space{
         height: 140px;
     }
+    .aboutMe{
+        background-image: image-set("./Assets/BG6.jpg");
+        background-size: cover;
+        display: flex;
+        height: fit-content;
+    }
+    .hobbiesDescrip{
+        background-image: image-set("./Assets/BG5.jpg");
+        background-size: cover;
+        display: flex;
+        height: fit-content;
+        p, h3{
+            margin: 0px;
+            color: #e4e4e4;
+            text-align: center;
+        }
+    }
+    .aboutMeText , .hobbiesDescripText{
+        background-color: #00020475;
+        width: 90%;
+        color: #e4e4e4;
+        padding: 60px;
+    }
+    .hobbiesDescripText{
+        background-color:#4085ca75 ;
+    }
 }
 
 .navLink:hover{
