@@ -75,13 +75,17 @@ body{
     .navBar{
         background-image: image-set("./Assets/Background2.jpg");
         background-size: cover;
-        width: 15vw;
+        width: fit-content;
         min-width: 180px;
+        border-right: rgba(1, 7, 28, 0.458) solid 10px;
+    }
+    .navigation{
+        align-items: center;
         text-align: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        border-right: rgba(1, 7, 28, 0.458) solid 10px;
+        position: fixed;
+        margin:5px ;
     }
     .eduNav, .projectNav{
         background-image: none;
@@ -411,6 +415,17 @@ body{
     }
 }
 @media(min-width :1200px){
+    .navBar{
+        background-image: image-set("./Assets/Background2.jpg");
+        background-size: cover;
+        width: 15vw;
+        min-width: 230px;
+        border-right: rgba(1, 7, 28, 0.458) solid 10px;
+    }
+    .eduNav, .projectNav{
+        background-image: none;
+        background-color: #051c37;      
+    }
     .navLink{
         font-size: 16px;
         margin: 10px;
