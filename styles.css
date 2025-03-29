@@ -7,8 +7,11 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.educationBG, .projectsBG{
+.educationBG{
     background-color: #4f4f4fe0;
+}
+.projectsBG{
+    background-color: #010913df;   
 }
 .homeBG{
     background-color: #3d3d3db7;
@@ -450,7 +453,7 @@ body{
     }
 }
 
-#courseWebDev{
+#courseWebDev, #courseAiMl, #courseData{
     color: #030e1b;
     text-align: center;
     border-bottom: #030e1b solid;
@@ -458,18 +461,10 @@ body{
         margin: 0px;
     }
 }
-#courseAiMl{
-    color: #030e1b;
+#webDev, #aiML, #data{
+    color: #dadada;
     text-align: center;
-    border-bottom: #030e1b solid;
-    p{
-        margin: 0px;
-    }
-}
-#courseData{
-    color: #030e1b;
-    text-align: center;
-    border-bottom: #030e1b solid;
+    border-bottom: #dadada solid;
     p{
         margin: 0px;
     }
