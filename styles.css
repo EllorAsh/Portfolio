@@ -103,7 +103,7 @@ body{
         }
     }
     .courseSpacing{
-        height: 20px;
+        height: 60px;
     }
 }
 @media(max-width :700px) {
@@ -201,14 +201,11 @@ body{
     .courseSpacing{
         height: 0px;
     }
-}
-
-@media(min-width :1000px){
-    .navLink{
-        font-size: 16px;
-        margin: 10px;
+    .space{
+        height: 140px;
     }
 }
+
 .navLink:hover{
     color: #e4e4e4;
 }
@@ -291,7 +288,7 @@ body{
     color: white;
 }
 
-@media(max-width :500px){
+@media(max-width :600px){
     .courseImg{
         width: 80vw;
         min-width: 200px;
@@ -305,6 +302,27 @@ body{
         margin: 5px;
         border-radius: 5px;
         width: 80vw;
+        min-width: 200px;
+    }
+}
+@media(min-width :1200px){
+    .navLink{
+        font-size: 16px;
+        margin: 10px;
+    }
+    .courseImg{
+        width: 20vw;
+        min-width: 200px;
+        min-height: 150px;
+        height: 15vw;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .courseCard{
+        background-color: whitesmoke;
+        margin: 5px;
+        border-radius: 5px;
+        width: 20vw;
         min-width: 200px;
     }
 }
