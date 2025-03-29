@@ -40,7 +40,8 @@ body{
         margin-left: 15px;
     }
     .navBar{
-        background-color: #395a7fb6;
+        background-image: image-set("./Assets/Background2.jpg");
+        background-size: cover;
         width: 15vw;
         min-width: 180px;
         text-align: center;
@@ -48,6 +49,10 @@ body{
         flex-direction: column;
         align-items: center;
         border-right: rgba(255, 255, 255, 0.458) solid 10px;
+    }
+    .eduNav, .projectNav{
+        background-image: none;
+        background-color: #051c37;      
     }
     .navButton, .navBtn, .navMenuButton{
         height: 0px;
@@ -112,7 +117,8 @@ body{
         height: fit-content;
     }
     .navBar{
-        background-color: #395a7fb6;
+        background-image: image-set("./Assets/BG5.jpg");
+        background-size: cover;
         max-height: fit-content;
         width: 100%;
         position: fixed;
