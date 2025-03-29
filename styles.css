@@ -34,16 +34,6 @@ body{
     width:600px;
     background-position: 50%;
 }
-.hobbiesDescrip{
-    background-color: #175498;
-    margin: 0px;
-    p, h3{
-        margin: 0px;
-        color: #e4e4e4;
-        text-align: center;
-    }
-    padding: 50px;
-}
 .hobbyText{
     background-color: #051c375f;
 }
@@ -142,14 +132,28 @@ body{
         display: flex;
         height: fit-content;
     }
-    .aboutMeText{
+    .hobbiesDescrip{
+        background-image: image-set("./Assets/BG5.jpg");
+        background-size: cover;
+        display: flex;
+        height: fit-content;
+        p, h3{
+            margin: 0px;
+            color: #e4e4e4;
+            text-align: center;
+        }
+    }
+    .aboutMeText , .hobbiesDescripText{
         background-color: #00020475;
         width: 50%;
         min-width: 400px;
         color: #e4e4e4;
         padding: 60px;
     }
-    .aboutMeImg{
+    .hobbiesDescripText{
+        background-color:#4085ca75 ;
+    }
+    .aboutMeImg, .hobbiesDescripImg{
         width: 50%;
     }
 }
