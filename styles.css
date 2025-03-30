@@ -419,6 +419,22 @@ body{
         width: 80vw;
         min-width: 200px;
     }
+    .courseSelection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a{
+            width: 100%;
+            color: aliceblue;
+            background-color: #030e1b;
+            margin: 1px;
+            padding: 5px;
+            text-decoration: none;
+            border-left: #ACACAC solid;
+            text-align: center;
+        }
+    }
 }
 @media(min-width :1200px){
     .navBar{
