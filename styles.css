@@ -16,6 +16,9 @@ body{
 .homeBG{
     background-color: #3d3d3db7;
 }
+.accomplishmentsBG{
+    background-color: #0209349a;
+}
 .display{
     width: 100%;
 }
@@ -180,6 +183,17 @@ body{
     .aboutMeImg, .hobbiesDescripImg{
         width: 50%;
     }
+    .certificationsHeaderImg{
+        background-image: image-set("./Assets/BG5.jpg");
+        background-size: cover;
+        height: fit-content;
+        margin: 0px;
+        padding: 10px;
+        h2{
+            color: #dadada;
+            margin: 0px;
+        }
+    }
 }
 @media(max-width :700px) {
     .mainBody{
@@ -314,6 +328,17 @@ body{
     }
     .hobbiesDescripText{
         background-color:#4085ca75 ;
+    }
+    .certificationsHeaderImg{
+        background-image: image-set("./Assets/BG5.jpg");
+        background-size: cover;
+        height: fit-content;
+        margin: 0px;
+        padding: 10px;
+        h2{
+            color: #dadada;
+            margin: 0px;
+        }
     }
 }
 
