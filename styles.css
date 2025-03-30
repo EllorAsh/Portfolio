@@ -184,7 +184,7 @@ body{
         width: 50%;
     }
     .certificationsHeaderImg{
-        background-image: image-set("./Assets/BG5.jpg");
+        background-image: image-set("./Assets/BG9.jpg");
         background-size: cover;
         height: fit-content;
         margin: 0px;
@@ -330,7 +330,7 @@ body{
         background-color:#4085ca75 ;
     }
     .certificationsHeaderImg{
-        background-image: image-set("./Assets/BG5.jpg");
+        background-image: image-set("./Assets/BG9.jpg");
         background-size: cover;
         height: fit-content;
         margin: 0px;
@@ -507,5 +507,28 @@ body{
     border-bottom: #dadada solid;
     p{
         margin: 0px;
+    }
+}
+
+.courseCard{
+    p{
+        margin-left: 5px;
+    }
+    a{
+        margin-left: 5px;
+        text-decoration: none;
+        color: #030e1b;
+    }
+    a:hover{
+        color: #ffffff;
+        text-decoration: underline;
+    }
+}
+
+.certification{
+    background-color: #243560;
+    color: #c5cbde;
+    a{
+        color: rgb(146, 146, 170);
     }
 }
